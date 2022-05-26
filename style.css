@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+#menu{
+    height: 80px;
+    background-color: #2b5da4;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: whitesmoke;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+nav a:hover{
+    border-bottom: 2px solid white;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+#banner{
+    height: 600px;
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+
+#hakkimizda{
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 40px;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+    text-align: center;
+}
+
+#container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid black;
+    font-size: 30px;
+    width: 400px;
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#sag{
+    float: right;
+    width: 750px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 100;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100{
+    margin-top: 10px;
+}
+
+#pson{
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-weight: 100;
+    text-align: left;
+}
+
+#pgebze{
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 20px;
+    font-weight: 100;
+    text-align: left;
+}
+
+#tyerler{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+.card{
+    width: 330px;
+    height: 380px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+}
+
+.baslikcard{
+    font-size: 15px;
+}
+
+.cardp{
+    color: #888;
+    font-size: 13px;
+}
+
+.card:hover{
+    border: 2px solid gray;
+}
+
+.social{
+    border: 1px solid black;
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.social:hover{
+    background-color: #888;
+}
+
+#iletisim{
+    background:url("img/gb1.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#h3iletisim{
+    color: white;
+}
+
+#iletisimopak{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+textarea{
+    font-family: Arial;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#adres{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+
+#adresbaslik{
+    font-size: 30px;
+    color: white;
+}
+
+.adresp{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+#copyright{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
